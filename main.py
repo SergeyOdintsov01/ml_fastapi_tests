@@ -8,8 +8,8 @@ class Item(BaseModel):
 
 
 app = FastAPI()
-#blanchefort/rubert-base-cased-sentiment-mokoron
-#blanchefort/rubert-base-cased-sentiment-med
+# blanchefort/rubert-base-cased-sentiment-mokoron
+# blanchefort/rubert-base-cased-sentiment-med
 classifier = pipeline("sentiment-analysis",
                       "blanchefort/rubert-base-cased-sentiment")
 
